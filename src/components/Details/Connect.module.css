@@ -1,0 +1,125 @@
+.connect {
+    margin: 10px 60px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Light mode */
+.light_connect {
+    background: #ede8e2;
+    color: #1a1a2e;
+    border-color: rgba(26,26,46,0.12);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
+
+.light_connect .btn_container {
+    background: #f5f0eb;
+    color: #1a1a2e;
+    border-color: rgba(26,26,46,0.10);
+}
+
+/* Dark mode */
+.dark_connect {
+    background: #161625;
+    color: #e8e4e0;
+    border-color: rgba(200,170,120,0.12);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.dark_connect .btn_container {
+    background: #1e1e30;
+    color: #e8e4e0;
+    border-color: rgba(200,170,120,0.10);
+}
+
+/* Heading */
+.connect_heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 28px;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+}
+
+.connect_heading::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: currentColor;
+    opacity: 0.15;
+}
+
+.number {
+    font-size: 11px;
+    font-weight: bold;
+    color: #c8aa78;
+}
+
+/* Links grid */
+.all_linkss {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+/* Button */
+.btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border: 1px solid;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    transition: all 0.25s ease;
+}
+
+.btn_container::after {
+    content: "↗";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(200,170,120,0.3);
+    border-radius: 50%;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+/* Hover */
+.light_connect .btn_container:hover {
+    background: #1a1a2e;
+    color: #e8e4e0;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.dark_connect .btn_container:hover {
+    background: #c8aa78;
+    color: #0f0f1a;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(200,170,120,0.2);
+}
+
+.btn_container:hover::after {
+    transform: rotate(45deg);
+    border-color: currentColor;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .connect { margin: 10px 20px; }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .connect { margin: 10px 15px; }
+    .all_linkss { grid-template-columns: 1fr; }
+}

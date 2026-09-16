@@ -1,0 +1,23 @@
+.starter_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro_txt {
+    font-size: 1.4rem;
+    color: rgba(232, 228, 224, 0.55);
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-weight: 300;
+}
+
+.slogan_txt {
+    color: #c8aa78;
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}

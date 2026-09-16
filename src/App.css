@@ -1,0 +1,40 @@
+.App {
+    min-height: 100vh;
+    padding: 10px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Light: warm off-white with deep ink text */
+.light-mode {
+    background-color: #f5f0eb;
+    color: #1a1a2e;
+}
+
+/* Dark: deep navy-charcoal with soft cream text */
+.dark-mode {
+    background-color: #0f0f1a;
+    color: #e8e4e0;
+}
+
+/* Starter page */
+.starter-pg {
+    background-color: #1a1a2e;
+    min-height: 100vh;
+}
+
+/* Slide-up entrance */
+.real-website {
+    animation: slideUp 0.8s ease-out;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.line {
+    border: none;
+    border-top: 1px solid rgba(200, 170, 120, 0.25);
+    margin: 35px auto;
+    max-width: 800px;
+}
