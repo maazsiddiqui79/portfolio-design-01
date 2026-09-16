@@ -5,6 +5,22 @@ A modern and minimal portfolio website design created to experiment with layout,
 
 > **Note:** This project is a design-only portfolio concept. It is created for UI/UX and frontend design purposes and does not include backend functionality, authentication, database integration, or other production features.
 
+
+## 🌐 Live Website
+
+## 🔗 [Visit the Live Demo](https://maazsiddiqui79.github.io/portfolio-design-01/)
+
+
+Each portfolio design may experiment with a different:
+
+* Layout
+* Design system
+* Color palette
+* Typography
+* User interface
+* Visual style
+
+
 ## 📌 About
 
 This repository contains one of my portfolio website designs.
@@ -20,11 +36,23 @@ The purpose of this project is to explore and experiment with:
 - Interactive UI elements
 - Overall visual presentation
 
+  ## 🎯 Purpose
+
+This project is part of a collection of different portfolio designs.
+
+Each portfolio design may experiment with a different:
+
+* Layout
+* Design system
+* Color palette
+* Typography
+* User interface
+* Visual style
+
+
 ## 🛠️ Technologies Used
 
-- HTML
-- CSS
-- Bootstrap
+- React
 
 
 ## 🎨 Design Only
@@ -79,19 +107,6 @@ Alternatively, use **VS Code Live Server**:
 ### 4. Start Exploring
 
 Make changes to the HTML/CSS files and refresh the browser to see the changes.
-
-## 🎯 Purpose
-
-This project is part of a collection of different portfolio designs.
-
-Each portfolio design may experiment with a different:
-
-* Layout
-* Design system
-* Color palette
-* Typography
-* User interface
-* Visual style
 
 ## 📄 License
 
