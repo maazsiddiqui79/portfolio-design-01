@@ -72,10 +72,6 @@ The project does not focus on:
 
 The primary focus is the **visual design and frontend experience**.
 
-## 📸 Screenshots
-
-Screenshots and design references are available in the `screenshot` folder.
-
 ## 🚀 Run Locally
 
 Follow these steps to run the project on your local machine.
@@ -92,17 +88,27 @@ git clone https://github.com/maazsiddiqui79/portfolio-design-01.git
 cd portfolio-design-01
 ```
 
-### 3. Open the Project
+### 3. Install Dependencies
 
-Since this is a frontend design project, you can open the HTML file directly in your browser.
+```bash
+npm install
+```
 
-Alternatively, use **VS Code Live Server**:
+### 4. Start the Development Server
 
-1. Open the project in VS Code.
-2. Install the **Live Server** extension.
-3. Right-click on the main HTML file.
-4. Select **Open with Live Server**.
-5. The website will open in your browser.
+```bash
+npm start
+```
+
+The application will start at:
+
+```text
+http://localhost:3000
+```
+
+Open the URL in your browser to view the application.
+
+---
 
 ### 4. Start Exploring
 
